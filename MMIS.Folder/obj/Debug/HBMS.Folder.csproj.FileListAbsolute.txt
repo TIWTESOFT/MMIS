@@ -1,0 +1,11 @@
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.Folder.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.Folder.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.FolderModel.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.Model.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.Common.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.FolderModel.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\bin\Debug\Lizard.Model.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\obj\Debug\Lizard.Folder.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Menu\obj\Debug\Lizard.Folder.pdb

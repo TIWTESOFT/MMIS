@@ -1,0 +1,10 @@
+C:\Users\wss\Desktop\HRMS\HRMS.Common\bin\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Common\bin\Debug\Lizard.Common.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wss\Desktop\HRMS\HRMS.Common\obj\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Common\obj\Debug\Lizard.Common.pdb
+D:\人事系统\HRMS\HRMS.Common\bin\Debug\HRMS.Common.dll
+D:\人事系统\HRMS\HRMS.Common\bin\Debug\HRMS.Common.pdb
+D:\人事系统\HRMS\HRMS.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\人事系统\HRMS\HRMS.Common\obj\Debug\HRMS.Common.dll
+D:\人事系统\HRMS\HRMS.Common\obj\Debug\HRMS.Common.pdb

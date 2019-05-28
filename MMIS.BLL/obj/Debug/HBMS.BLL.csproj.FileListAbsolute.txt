@@ -1,0 +1,15 @@
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\obj\Debug\Lizard.BLL.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\obj\Debug\Lizard.BLL.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.BLL.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.BLL.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.DAL.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.DAL.SqlServer.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.FolderModel.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.Model.dll
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.Common.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.DAL.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.FolderModel.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.Model.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.BLL\bin\Debug\Lizard.DAL.SqlServer.pdb

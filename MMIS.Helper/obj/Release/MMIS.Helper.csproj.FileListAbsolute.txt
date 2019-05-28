@@ -1,0 +1,6 @@
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Helper\bin\Release\MMIS.Helper.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Helper\bin\Release\MMIS.Helper.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Helper\bin\Release\ChnCharInfo.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Helper\obj\Release\MMIS.Helper.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Helper\obj\Release\MMIS.Helper.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Helper\obj\Release\ResolveAssemblyReference.cache

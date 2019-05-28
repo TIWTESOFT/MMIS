@@ -1,0 +1,12 @@
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.DAL.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.DAL.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.FolderModel.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.Helper.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.Model.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\ChnCharInfo.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.FolderModel.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.Helper.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\bin\Release\MMIS.Model.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\obj\Release\MMIS.DAL.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\obj\Release\MMIS.DAL.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\obj\Release\ResolveAssemblyReference.cache

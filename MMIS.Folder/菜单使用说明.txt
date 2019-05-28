@@ -1,0 +1,3 @@
+﻿1、在使用菜单时只需要扩展或者修改XMenuGroupContext中的获取数据源的方式来获取菜单。
+2、在本系统中采用菜单来源于数据库，菜单来源配置在App.Config文件中，数据获取方法需要修改XDataBaseMenuGroupTool.cs中的GetMenuGroups方法
+3、类XMenuFolderInfoTool为获取数据源的类

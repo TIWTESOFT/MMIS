@@ -1,0 +1,12 @@
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\bin\Debug\Lizard.Controls.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\bin\Debug\Lizard.Controls.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\ResGen.read.1.tlog
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\ResGen.write.1.tlog
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\Lizard.Controls.dll.licenses
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\Lizard.Controls.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\Lizard.Controls.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\HRMS.Controls.Properties.Resources.resources
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\HRMS.Controls.XBarCode.resources
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\HRMS.Controls.XControlBase.resources
+C:\Users\wss\Desktop\HRMS\HRMS.Controls\obj\Debug\HRMS.Controls.XRemindLabel.resources

@@ -1,0 +1,122 @@
+﻿*********************************************
+2014-11-08 20:08:18
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-08 20:08:18
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-08 20:22:41
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e)
+*********************************************
+
+*********************************************
+2014-11-08 20:51:22
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 20:52:36
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 20:56:17
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 20:59:03
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 20:59:26
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 21:01:37
+System.Runtime.InteropServices.COMException (0x800A107A): 类型不匹配
+   在 Microsoft.Office.Interop.Word.InlineShapes.AddPicture(String FileName, Object& LinkToFile, Object& SaveWithDocument, Object& Range)
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillRangeByReceiveInfo(Document dct, Bookmark bookMark, String userId, String userName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 86
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillRange(Document dct, Bookmark bookMark, XVEquipmentReceiveInfo receiveInfo) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 65
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillWordValue(String fileFullName, XVEquipmentReceiveInfo receiveInfo) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 27
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 51
+*********************************************
+
+*********************************************
+2014-11-08 21:02:19
+System.Runtime.InteropServices.COMException (0x80041107): No document is open to perform the operation requested.
+   在 DSOFramer._FramerControl.get_ActiveDocument()
+   在 AxDSOFramer.AxFramerControl.get_ActiveDocument()
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 85
+*********************************************
+
+*********************************************
+2014-11-08 21:03:54
+System.Runtime.InteropServices.COMException (0x800A107A): 类型不匹配
+   在 Microsoft.Office.Interop.Word.InlineShapes.AddPicture(String FileName, Object& LinkToFile, Object& SaveWithDocument, Object& Range)
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillRangeByReceiveInfo(Document dct, Bookmark bookMark, String userId, String userName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 88
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillRange(Document dct, Bookmark bookMark, XVEquipmentReceiveInfo receiveInfo) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 65
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillWordValue(String fileFullName, XVEquipmentReceiveInfo receiveInfo) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 27
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 51
+*********************************************
+
+*********************************************
+2014-11-08 21:05:00
+System.Runtime.InteropServices.COMException (0x800A107A): 类型不匹配
+   在 Microsoft.Office.Interop.Word.InlineShapes.AddPicture(String FileName, Object& LinkToFile, Object& SaveWithDocument, Object& Range)
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillRangeByReceiveInfo(Document dct, Bookmark bookMark, String userId, String userName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 88
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillRange(Document dct, Bookmark bookMark, XVEquipmentReceiveInfo receiveInfo) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 65
+   在 MMIS.UI.XEquipmentReceiveWordTool.FillWordValue(String fileFullName, XVEquipmentReceiveInfo receiveInfo) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\XEquipmentReceiveWordTool.cs:行号 27
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 51
+*********************************************
+
+*********************************************
+2014-11-08 21:07:07
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 21:08:14
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 21:11:16
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-08 21:12:59
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+

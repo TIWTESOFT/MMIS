@@ -1,0 +1,129 @@
+﻿*********************************************
+2014-11-06 15:17:55
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 15:17:55
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 15:19:43
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 15:19:43
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 15:19:54
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 15:19:54
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 18:58:20
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 18:58:20
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-06 22:50:38
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Runtime.InteropServices.COMException: The associated COM server does not support ActiveX Document embedding.
+   在 DSOFramer._FramerControl.Open(Object Document, Object ReadOnly, Object ProgId, Object WebUsername, Object WebPassword)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 AxDSOFramer.AxFramerControl.Open(Object document)
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 52
+*********************************************
+
+*********************************************
+2014-11-06 22:50:40
+System.Runtime.InteropServices.COMException (0x80041107): No document is open to perform the operation requested.
+   在 DSOFramer._FramerControl.get_ActiveDocument()
+   在 AxDSOFramer.AxFramerControl.get_ActiveDocument()
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 114
+*********************************************
+
+*********************************************
+2014-11-06 23:09:58
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Runtime.InteropServices.COMException: The associated COM server does not support ActiveX Document embedding.
+   在 DSOFramer._FramerControl.Open(Object Document, Object ReadOnly, Object ProgId, Object WebUsername, Object WebPassword)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 AxDSOFramer.AxFramerControl.Open(Object document)
+   在 MMIS.UI.frmPrintPreview.Init()
+*********************************************
+
+*********************************************
+2014-11-06 23:09:59
+System.Runtime.InteropServices.COMException (0x80041107): No document is open to perform the operation requested.
+   在 DSOFramer._FramerControl.get_ActiveDocument()
+   在 AxDSOFramer.AxFramerControl.get_ActiveDocument()
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e)
+*********************************************
+
+*********************************************
+2014-11-06 23:10:29
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Runtime.InteropServices.COMException: The associated COM server does not support ActiveX Document embedding.
+   在 DSOFramer._FramerControl.Open(Object Document, Object ReadOnly, Object ProgId, Object WebUsername, Object WebPassword)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 AxDSOFramer.AxFramerControl.Open(Object document)
+   在 MMIS.UI.frmPrintPreview.Init()
+*********************************************
+
+*********************************************
+2014-11-06 23:10:32
+System.Runtime.InteropServices.COMException (0x80041107): No document is open to perform the operation requested.
+   在 DSOFramer._FramerControl.get_ActiveDocument()
+   在 AxDSOFramer.AxFramerControl.get_ActiveDocument()
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e)
+*********************************************
+
+*********************************************
+2014-11-06 23:41:09
+System.ComponentModel.Win32Exception (0x80004005): 在禁用 UAC 时，无法激活此应用。
+   在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 MMIS.UI.frmEquipmentCertPrintList.cmdPdf_Click(Object sender, CommandEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmEquipmentCertPrintList.cs:行号 53
+*********************************************
+

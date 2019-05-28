@@ -1,0 +1,14 @@
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.DAL.SqlServer.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.DAL.SqlServer.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.DAL.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.Helper.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.Model.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.FolderModel.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\ChnCharInfo.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.DAL.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.Helper.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.Model.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\bin\Release\MMIS.FolderModel.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\obj\Release\MMIS.DAL.SqlServer.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\obj\Release\MMIS.DAL.SqlServer.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.SqlServer.DAL\obj\Release\ResolveAssemblyReference.cache

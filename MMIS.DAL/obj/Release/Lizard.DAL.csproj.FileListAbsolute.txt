@@ -1,0 +1,7 @@
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\bin\Release\Lizard.DAL.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\bin\Release\Lizard.DAL.pdb
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\bin\Release\Lizard.Common.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\bin\Release\Lizard.Common.pdb
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\obj\Release\ResolveAssemblyReference.cache
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\obj\Release\Lizard.DAL.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.DAL\obj\Release\Lizard.DAL.pdb

@@ -1,0 +1,13 @@
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\bin\Release\MMIS.Controls.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\bin\Release\MMIS.Controls.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\bin\Release\BarCode.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\bin\Release\Janus.Data.v3.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\MMIS.Controls.Properties.Resources.resources
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\MMIS.Controls.XBarCode.resources
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\MMIS.Controls.XControlBase.resources
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\MMIS.Controls.XRemindLabel.resources
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\MMIS.Controls.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\MMIS.Controls.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\ResolveAssemblyReference.cache
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\GenerateResource.read.1.tlog
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Controls\obj\Release\GenerateResource.write.1.tlog

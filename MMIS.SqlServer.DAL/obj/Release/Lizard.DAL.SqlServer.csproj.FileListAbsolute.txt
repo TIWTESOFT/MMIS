@@ -1,0 +1,9 @@
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\bin\Release\Lizard.DAL.SqlServer.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\bin\Release\Lizard.DAL.SqlServer.pdb
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\bin\Release\Lizard.DAL.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\bin\Release\Lizard.Common.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\bin\Release\Lizard.DAL.pdb
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\bin\Release\Lizard.Common.pdb
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\obj\Release\ResolveAssemblyReference.cache
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\obj\Release\Lizard.DAL.SqlServer.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.SqlServer.DAL\obj\Release\Lizard.DAL.SqlServer.pdb

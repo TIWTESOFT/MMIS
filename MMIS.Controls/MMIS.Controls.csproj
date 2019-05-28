@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4643F993-2CF6-40DE-8CF4-8804E64F5F0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMIS.Controls</RootNamespace>
+    <AssemblyName>MMIS.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarCode">
+      <HintPath>..\Refrences\BarCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>..\Refrences\Janus.Data.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.ButtonBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.Common.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.FilterEditor.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.Ribbon.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.Schedule.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.TimeLine.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3">
+      <HintPath>..\Cash\Refrences\Janus.Windows.UI.v3.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Grouper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoundCornerButton\RoundCornerButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundCornerButton\ControlState.cs" />
+    <Compile Include="RoundCornerButton\GraphicsPathHelper.cs" />
+    <Compile Include="RoundCornerButton\RoundStyle.cs" />
+    <Compile Include="XBarCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XBarCode.Designer.cs">
+      <DependentUpon>XBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XControlBase.Designer.cs">
+      <DependentUpon>XControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XImageButton.Designer.cs">
+      <DependentUpon>XImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRemindLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XRemindLabel.Designer.cs">
+      <DependentUpon>XRemindLabel.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XBarCode.resx">
+      <DependentUpon>XBarCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XControlBase.resx">
+      <DependentUpon>XControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRemindLabel.resx">
+      <DependentUpon>XRemindLabel.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Remind.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

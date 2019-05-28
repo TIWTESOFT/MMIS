@@ -1,0 +1,10 @@
+﻿*********************************************
+2016-11-24 15:46:06
+System.IO.IOException: 文件“C:\xx.xls”已经存在。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 MMIS.UI.Common.frmListBase.Export() 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI.Common\Base\frmListBase.cs:行号 262
+*********************************************
+

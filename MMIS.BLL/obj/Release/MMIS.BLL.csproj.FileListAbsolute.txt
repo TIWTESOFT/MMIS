@@ -1,0 +1,16 @@
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.BLL.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.BLL.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.DAL.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.DAL.SqlServer.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.FolderModel.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.Helper.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.Model.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\ChnCharInfo.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.DAL.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.FolderModel.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.Helper.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.Model.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\bin\Release\MMIS.DAL.SqlServer.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\obj\Release\MMIS.BLL.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\obj\Release\MMIS.BLL.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.BLL\obj\Release\ResolveAssemblyReference.cache

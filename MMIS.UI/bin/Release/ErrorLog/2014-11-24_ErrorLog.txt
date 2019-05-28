@@ -1,0 +1,16 @@
+﻿*********************************************
+2014-11-24 13:59:33
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MMIS.Helper.XAppSettingHelper.Save(IList`1 settingInfos) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.Helper\XAppSettingHelper.cs:行号 24
+   在 MMIS.UI.Common.frmLogin.RememberLoginUser()
+   在 MMIS.UI.Common.frmLogin.btnLogin_Click(Object sender, EventArgs e)
+*********************************************
+
+*********************************************
+2014-11-24 13:59:56
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MMIS.Helper.XAppSettingHelper.Save(IList`1 settingInfos) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.Helper\XAppSettingHelper.cs:行号 24
+   在 MMIS.UI.Common.frmLogin.RememberLoginUser()
+   在 MMIS.UI.Common.frmLogin.btnLogin_Click(Object sender, EventArgs e)
+*********************************************
+

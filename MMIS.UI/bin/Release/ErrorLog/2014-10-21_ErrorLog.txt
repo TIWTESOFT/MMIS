@@ -1,0 +1,27 @@
+﻿*********************************************
+2014-10-21 20:13:41
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ArgumentException: 参数错误。
+
+   在 DSOFramer._FramerControl.Open(Object Document, Object ReadOnly, Object ProgId, Object WebUsername, Object WebPassword)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 AxDSOFramer.AxFramerControl.Open(Object document)
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 46
+*********************************************
+
+*********************************************
+2014-10-21 20:15:08
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ArgumentException: 参数错误。
+
+   在 DSOFramer._FramerControl.Open(Object Document, Object ReadOnly, Object ProgId, Object WebUsername, Object WebPassword)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 AxDSOFramer.AxFramerControl.Open(Object document)
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 46
+*********************************************
+

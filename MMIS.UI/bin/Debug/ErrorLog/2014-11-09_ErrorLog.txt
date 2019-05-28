@@ -1,0 +1,200 @@
+﻿*********************************************
+2014-11-09 08:58:16
+System.Data.SqlClient.SqlException (0x80131904): “=”附近有语法错误。
+“END”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 MMIS.DAL.XDataAccessBase.ExecuteNonQueryByTrans(String sql) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.DAL\Base\XDataAccessBase.cs:行号 185
+ClientConnectionId:74eac12d-47cd-4d2b-a666-46c70732ccd7
+*********************************************
+
+*********************************************
+2014-11-09 08:58:40
+System.Data.SqlClient.SqlException (0x80131904): “=”附近有语法错误。
+“END”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 MMIS.DAL.XDataAccessBase.ExecuteNonQueryByTrans(String sql)
+ClientConnectionId:74eac12d-47cd-4d2b-a666-46c70732ccd7
+*********************************************
+
+*********************************************
+2014-11-09 08:59:40
+System.Data.SqlClient.SqlException (0x80131904): 关键字 'THEN' 附近有语法错误。
+“END”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 MMIS.DAL.XDataAccessBase.ExecuteNonQueryByTrans(String sql)
+ClientConnectionId:74eac12d-47cd-4d2b-a666-46c70732ccd7
+*********************************************
+
+*********************************************
+2014-11-09 09:00:11
+System.Data.SqlClient.SqlException (0x80131904): 关键字 'THEN' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 MMIS.DAL.XDataAccessBase.ExecuteNonQueryByTrans(String sql)
+ClientConnectionId:74eac12d-47cd-4d2b-a666-46c70732ccd7
+*********************************************
+
+*********************************************
+2014-11-09 10:04:52
+System.Data.SqlClient.SqlException (0x80131904): “RID”附近有语法错误。
+“RID”附近有语法错误。
+关键字 'OR' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MMIS.DAL.XDataAccessBase.GetDataTable(String sql) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.DAL\Base\XDataAccessBase.cs:行号 94
+ClientConnectionId:1fd79dd9-5412-4e77-a96d-cc37514e7ff7
+*********************************************
+
+*********************************************
+2014-11-09 10:23:12
+System.Data.SqlClient.SqlException (0x80131904): 列名 'TaskStatus' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MMIS.DAL.XDataAccessBase.GetDataTable(String sql) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.DAL\Base\XDataAccessBase.cs:行号 94
+ClientConnectionId:5b5914d4-94e9-4d9d-8bf2-de78b6d26ce3
+*********************************************
+
+*********************************************
+2014-11-09 11:02:37
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-09 11:02:37
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-09 11:07:40
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-09 11:07:41
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-09 11:56:24
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-09 11:59:31
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-09 11:59:50
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-09 20:37:15
+System.IO.IOException: 文件“C:\WssTemp\9b7f55f4-573c-45c9-ad4d-f8edcd2e3f8c.docx”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.UI.Common.XFilePreviewTool.Preview(String fileId) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI.Common\XFilePreviewTool.cs:行号 60
+*********************************************
+
+*********************************************
+2014-11-09 21:46:40
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-09 21:46:40
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-09 22:22:08
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-09 22:25:25
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-09 22:33:39
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+

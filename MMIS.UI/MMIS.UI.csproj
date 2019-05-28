@@ -1,0 +1,1419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{391E90A6-A8F7-4199-B95A-E3D9CD35396A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMIS.UI</RootNamespace>
+    <AssemblyName>MMIS.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ui_48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.DSOFramer, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\AxInterop.DSOFramer.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>..\Refrences\Janus.Data.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3">
+      <HintPath>..\Refrences\Janus.Windows.ButtonBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3">
+      <HintPath>..\Refrences\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3">
+      <HintPath>..\Refrences\Janus.Windows.Common.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3">
+      <HintPath>..\Refrences\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3">
+      <HintPath>..\Refrences\Janus.Windows.FilterEditor.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3">
+      <HintPath>..\Refrences\Janus.Windows.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3">
+      <HintPath>..\Refrences\Janus.Windows.Ribbon.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3">
+      <HintPath>..\Refrences\Janus.Windows.Schedule.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v3">
+      <HintPath>..\Refrences\Janus.Windows.TimeLine.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3">
+      <HintPath>..\Refrences\Janus.Windows.UI.v3.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Refrences\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="plib, Version=1.71.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\plib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\XSelectEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XTreeNode.cs" />
+    <Compile Include="Controls\XSelectProjectTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectProjectTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectProjectTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectStandEquipmentEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectStandEquipmentEditBox.Designer.cs">
+      <DependentUpon>XSelectStandEquipmentEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="任务管理\frmTaskAttachmentEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="任务管理\frmTaskAttachmentEdit.Designer.cs">
+      <DependentUpon>frmTaskAttachmentEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeEdit.Designer.cs">
+      <DependentUpon>frmCodeEquipmentTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeList.Designer.cs">
+      <DependentUpon>frmCodeEquipmentTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeEquipmentType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeEquipmentType.Designer.cs">
+      <DependentUpon>frmSelectCodeEquipmentType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemConfig\frmSystemConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\frmSystemConfig.Designer.cs">
+      <DependentUpon>frmSystemConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStand.Designer.cs">
+      <DependentUpon>frmSelectStand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeUserType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeUserType.Designer.cs">
+      <DependentUpon>frmSelectCodeUserType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeUserTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeUserTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeUserTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectStandEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectStandEditBox.Designer.cs">
+      <DependentUpon>XSelectStandEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemConfig\XSystemConfigInfo.cs" />
+    <Compile Include="SystemConfig\XSystemConfigTool.cs" />
+    <Compile Include="Controls\XSelectCodeEquipmentTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeEquipmentTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeEquipmentTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XUICommon.cs" />
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeItemEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeItemEdit.Designer.cs">
+      <DependentUpon>frmCodeEquipmentTypeItemEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeSpecItemEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentTypeSpecItemEdit.Designer.cs">
+      <DependentUpon>frmCodeEquipmentTypeSpecItemEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="套打\frmPrintList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="套打\frmPrintList.Designer.cs">
+      <DependentUpon>frmPrintList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="套打\PrintCommon.cs" />
+    <Compile Include="套打\frmBillPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="套打\frmBillPrint.Designer.cs">
+      <DependentUpon>frmBillPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="套打\SQLHelper.cs" />
+    <Compile Include="套打\Template.cs" />
+    <Compile Include="套打\frmCoPrintList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="套打\frmCoPrintList.Designer.cs">
+      <DependentUpon>frmCoPrintList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\XEquipmentReceiveWordTool.cs" />
+    <Compile Include="送检管理\frmEquipmentStatusQueryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentStatusQueryList.Designer.cs">
+      <DependentUpon>frmEquipmentStatusQueryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmSelectStandEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmSelectStandEquipment.Designer.cs">
+      <DependentUpon>frmSelectStandEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStandFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStandFiles.Designer.cs">
+      <DependentUpon>frmSelectStandFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandCheckRecordEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandCheckRecordEdit.designer.cs">
+      <DependentUpon>frmStandCheckRecordEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandCheckRecordList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandCheckRecordList.designer.cs">
+      <DependentUpon>frmStandCheckRecordList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentCheckRecordEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentCheckRecordEdit.designer.cs">
+      <DependentUpon>frmStandEquipmentCheckRecordEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentCheckRecordList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentCheckRecordList.designer.cs">
+      <DependentUpon>frmStandEquipmentCheckRecordList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesCheckRecordEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesCheckRecordEdit.Designer.cs">
+      <DependentUpon>frmStandFilesCheckRecordEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesCheckRecordList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesCheckRecordList.designer.cs">
+      <DependentUpon>frmStandFilesCheckRecordList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectStandFilesEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectStandFilesEditBox.Designer.cs">
+      <DependentUpon>XSelectStandFilesEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="提醒管理\frmRemindConfigEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="提醒管理\frmRemindConfigEdit.Designer.cs">
+      <DependentUpon>frmRemindConfigEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="提醒管理\frmRemindConfigList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="提醒管理\frmRemindConfigList.Designer.cs">
+      <DependentUpon>frmRemindConfigList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="提醒管理\frmRemindList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="提醒管理\frmRemindList.Designer.cs">
+      <DependentUpon>frmRemindList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmPrintPreview.Designer.cs">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="任务管理\frmTaskFilesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="任务管理\frmTaskFilesEdit.Designer.cs">
+      <DependentUpon>frmTaskFilesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="任务管理\frmTreeTaskFileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="任务管理\frmTreeTaskFileList.Designer.cs">
+      <DependentUpon>frmTreeTaskFileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeTaskTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeTaskTypeList.Designer.cs">
+      <DependentUpon>frmSelectCodeTaskTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="任务管理\frmTaskEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="任务管理\frmTaskEdit.designer.cs">
+      <DependentUpon>frmTaskEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="任务管理\frmTreeTaskList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="任务管理\frmTreeTaskList.Designer.cs">
+      <DependentUpon>frmTreeTaskList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeTaskTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeTaskTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeTaskTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTaskTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTaskTypeEdit.Designer.cs">
+      <DependentUpon>frmCodeTaskTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTaskTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTaskTypeList.Designer.cs">
+      <DependentUpon>frmCodeTaskTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCertPrintEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCertPrintEdit.Designer.cs">
+      <DependentUpon>frmEquipmentCertPrintEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCertPrintList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCertPrintList.Designer.cs">
+      <DependentUpon>frmEquipmentCertPrintList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentSignedEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentSignedEdit.Designer.cs">
+      <DependentUpon>frmEquipmentSignedEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentSignedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentSignedList.Designer.cs">
+      <DependentUpon>frmEquipmentSignedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckedEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckedEdit.Designer.cs">
+      <DependentUpon>frmEquipmentCheckedEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckedList.Designer.cs">
+      <DependentUpon>frmEquipmentCheckedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentVerifyedEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentVerifyedEdit.Designer.cs">
+      <DependentUpon>frmEquipmentVerifyedEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentVerifyedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentVerifyedList.Designer.cs">
+      <DependentUpon>frmEquipmentVerifyedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentMemoryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentMemoryEdit.Designer.cs">
+      <DependentUpon>frmStandEquipmentMemoryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesMemoryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesMemoryEdit.Designer.cs">
+      <DependentUpon>frmStandFilesMemoryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStandCodeEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStandCodeEquipment.Designer.cs">
+      <DependentUpon>frmSelectStandCodeEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStander.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStander.Designer.cs">
+      <DependentUpon>frmSelectStander.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectStandCodeEquipmentEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectStandCodeEquipmentEditBox.Designer.cs">
+      <DependentUpon>XSelectStandCodeEquipmentEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectStanderEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectStanderEditBox.Designer.cs">
+      <DependentUpon>XSelectStanderEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandCodeEquipmentEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandCodeEquipmentEdit.designer.cs">
+      <DependentUpon>frmStandCodeEquipmentEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandCodeEquipmentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandCodeEquipmentList.designer.cs">
+      <DependentUpon>frmStandCodeEquipmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentEdit.designer.cs">
+      <DependentUpon>frmStandEquipmentEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandEquipmentList.designer.cs">
+      <DependentUpon>frmStandEquipmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesEdit.Designer.cs">
+      <DependentUpon>frmStandFilesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandFilesList.Designer.cs">
+      <DependentUpon>frmStandFilesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeStandStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeStandStatus.Designer.cs">
+      <DependentUpon>frmSelectCodeStandStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeStandStatusEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeStandStatusEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeStandStatusEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeStandStatusEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeStandStatusEdit.Designer.cs">
+      <DependentUpon>frmCodeStandStatusEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeStandStatusList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeStandStatusList.Designer.cs">
+      <DependentUpon>frmCodeStandStatusList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeEquipmentState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeEquipmentState.Designer.cs">
+      <DependentUpon>frmSelectCodeEquipmentState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeEquipmentStateEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeEquipmentStateEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeEquipmentStateEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentStateEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentStateEdit.Designer.cs">
+      <DependentUpon>frmCodeEquipmentStateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentStateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeEquipmentStateList.Designer.cs">
+      <DependentUpon>frmCodeEquipmentStateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandardEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandardEdit.designer.cs">
+      <DependentUpon>frmStandardEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmStandardList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmStandardList.Designer.cs">
+      <DependentUpon>frmStandardList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmPassWord4FileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmPassWord4FileList.designer.cs">
+      <DependentUpon>frmPassWord4FileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmFileDownloadEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmFileDownloadEdit.Designer.cs">
+      <DependentUpon>frmFileDownloadEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmEditPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmEditPassword.designer.cs">
+      <DependentUpon>frmEditPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmResetPassword.designer.cs">
+      <DependentUpon>frmResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmWebResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmWebResetPassword.designer.cs">
+      <DependentUpon>frmWebResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmFileDownloadList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmFileDownloadList.Designer.cs">
+      <DependentUpon>frmFileDownloadList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckList.Designer.cs">
+      <DependentUpon>frmEquipmentCheckList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentReceiveEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentReceiveEdit.Designer.cs">
+      <DependentUpon>frmEquipmentReceiveEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentReceiveList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentReceiveList.Designer.cs">
+      <DependentUpon>frmEquipmentReceiveList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectEquipmentCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectEquipmentCheck.Designer.cs">
+      <DependentUpon>frmSelectEquipmentCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectEquipmentCheckEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectEquipmentCheckEditBox.Designer.cs">
+      <DependentUpon>XSelectEquipmentCheckEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCheckEdit.Designer.cs">
+      <DependentUpon>frmEquipmentCheckEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectEquipmentCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectEquipmentCust.Designer.cs">
+      <DependentUpon>frmSelectEquipmentCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectEquipmentCustEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectEquipmentCustEditBox.Designer.cs">
+      <DependentUpon>XSelectEquipmentCustEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmPassWordTmpCheckList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmPassWordTmpCheckList.Designer.cs">
+      <DependentUpon>frmPassWordTmpCheckList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmPassWordTmpEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmPassWordTmpEdit.Designer.cs">
+      <DependentUpon>frmPassWordTmpEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmPassWordTmpList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmPassWordTmpList.Designer.cs">
+      <DependentUpon>frmPassWordTmpList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFolderTypeTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFolderTypeTree.Designer.cs">
+      <DependentUpon>frmCodeFolderTypeTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeFolderType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeFolderType.Designer.cs">
+      <DependentUpon>frmSelectCodeFolderType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeFolderTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeFolderTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeFolderTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XTreeSelectEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XTreeSelectEditBox.Designer.cs">
+      <DependentUpon>XTreeSelectEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmCodeFolderTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmCodeFolderTypeEdit.Designer.cs">
+      <DependentUpon>frmCodeFolderTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmCodeFolderTypeTreeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmCodeFolderTypeTreeEdit.Designer.cs">
+      <DependentUpon>frmCodeFolderTypeTreeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmFileTreeListList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmFileTreeListList.Designer.cs">
+      <DependentUpon>frmFileTreeListList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmFileListEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmFileListEdit.Designer.cs">
+      <DependentUpon>frmFileListEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="电子文档\frmFileListList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="电子文档\frmFileListList.Designer.cs">
+      <DependentUpon>frmFileListList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectFileLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectFileLevel.Designer.cs">
+      <DependentUpon>frmSelectFileLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectFileStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectFileStatus.Designer.cs">
+      <DependentUpon>frmSelectFileStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectFileType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectFileType.Designer.cs">
+      <DependentUpon>frmSelectFileType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeEquipmentCustType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeEquipmentCustType.Designer.cs">
+      <DependentUpon>frmSelectCodeEquipmentCustType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeEquipmentCustTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectCodeEquipmentCustTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectCodeEquipmentCustTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectFileTypeEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectFileTypeEditBox.Designer.cs">
+      <DependentUpon>XSelectFileTypeEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectFileStatusEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectFileStatusEditBox.Designer.cs">
+      <DependentUpon>XSelectFileStatusEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectFileLvelEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectFileLvelEditBox.Designer.cs">
+      <DependentUpon>XSelectFileLvelEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmCodeEquipmentCustTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmCodeEquipmentCustTypeEdit.designer.cs">
+      <DependentUpon>frmCodeEquipmentCustTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmCodeEquipmentCustTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmCodeEquipmentCustTypeList.designer.cs">
+      <DependentUpon>frmCodeEquipmentCustTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCustEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCustEdit.designer.cs">
+      <DependentUpon>frmEquipmentCustEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCustList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="送检管理\frmEquipmentCustList.Designer.cs">
+      <DependentUpon>frmEquipmentCustList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeProjectTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeProjectTypeEdit.Designer.cs">
+      <DependentUpon>frmCodeProjectTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeProjectTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeProjectTypeList.designer.cs">
+      <DependentUpon>frmCodeProjectTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeProjectType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectCodeProjectType.Designer.cs">
+      <DependentUpon>frmSelectCodeProjectType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmMeetingProjectEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmMeetingProjectEdit.designer.cs">
+      <DependentUpon>frmMeetingProjectEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="标准管理\frmMeetingProjectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="标准管理\frmMeetingProjectList.Designer.cs">
+      <DependentUpon>frmMeetingProjectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStaffInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectStaffInfo.Designer.cs">
+      <DependentUpon>frmSelectStaffInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="人事管理\frmStaffCertificateEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="人事管理\frmStaffCertificateEdit.designer.cs">
+      <DependentUpon>frmStaffCertificateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="人事管理\frmStaffCertificateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="人事管理\frmStaffCertificateList.Designer.cs">
+      <DependentUpon>frmStaffCertificateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectUser.Designer.cs">
+      <DependentUpon>frmSelectUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectUsersEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectUsersEditBox.Designer.cs">
+      <DependentUpon>XSelectUsersEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectStaffInfoEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XSelectStaffInfoEditBox.Designer.cs">
+      <DependentUpon>XSelectStaffInfoEditBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="人事管理\frmStaffInfoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="人事管理\frmStaffInfoEdit.Designer.cs">
+      <DependentUpon>frmStaffInfoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="人事管理\frmStaffInfoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="人事管理\frmStaffInfoList.Designer.cs">
+      <DependentUpon>frmStaffInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeCItemEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeCItemEdit.designer.cs">
+      <DependentUpon>frmCodeCItemEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeCItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeCItemList.designer.cs">
+      <DependentUpon>frmCodeCItemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileLevelEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileLevelEdit.designer.cs">
+      <DependentUpon>frmCodeFileLevelEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileLevelList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileLevelList.designer.cs">
+      <DependentUpon>frmCodeFileLevelList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileStateEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileStateEdit.designer.cs">
+      <DependentUpon>frmCodeFileStateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileStateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileStateList.designer.cs">
+      <DependentUpon>frmCodeFileStateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileTypeEdit.Designer.cs">
+      <DependentUpon>frmCodeFileTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeFileTypeList.Designer.cs">
+      <DependentUpon>frmCodeFileTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTempPssStateEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTempPssStateEdit.designer.cs">
+      <DependentUpon>frmCodeTempPssStateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTempPssStateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeTempPssStateList.designer.cs">
+      <DependentUpon>frmCodeTempPssStateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserStateEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserStateEdit.Designer.cs">
+      <DependentUpon>frmCodeUserStateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserStateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserStateList.Designer.cs">
+      <DependentUpon>frmCodeUserStateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserTypeEdit.Designer.cs">
+      <DependentUpon>frmCodeUserTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\代码管理\frmCodeUserTypeList.Designer.cs">
+      <DependentUpon>frmCodeUserTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectUseDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm\frmSelectUseDept.Designer.cs">
+      <DependentUpon>frmSelectUseDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XSelectUseDeptEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="基本档案\组织机构\frmUseDeptEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\组织机构\frmUseDeptEdit.Designer.cs">
+      <DependentUpon>frmUseDeptEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\组织机构\frmUseDeptList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\组织机构\frmUseDeptList.Designer.cs">
+      <DependentUpon>frmUseDeptList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersDeptList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersDeptList.Designer.cs">
+      <DependentUpon>frmUsersDeptList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmRoleMenusList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmRoleMenusList.designer.cs">
+      <DependentUpon>frmRoleMenusList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\组织机构\frmUseDeptTreeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\组织机构\frmUseDeptTreeList.Designer.cs">
+      <DependentUpon>frmUseDeptTreeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersRoleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersRoleList.designer.cs">
+      <DependentUpon>frmUsersRoleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmRoleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmRoleEdit.Designer.cs">
+      <DependentUpon>frmRoleEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmRoleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmRoleList.Designer.cs">
+      <DependentUpon>frmRoleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersEdit.Designer.cs">
+      <DependentUpon>frmUsersEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本档案\系统管理\frmUsersList.Designer.cs">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="送检管理\XFlow.cs" />
+    <EmbeddedResource Include="SelectForm\frmSelectEquipmentCust.resx">
+      <DependentUpon>frmSelectEquipmentCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="任务管理\frmTaskAttachmentEdit.resx">
+      <DependentUpon>frmTaskAttachmentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeEquipmentCustType.resx">
+      <DependentUpon>frmSelectCodeEquipmentCustType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectUseDept.resx">
+      <DependentUpon>frmSelectUseDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeEquipmentTypeEdit.resx">
+      <DependentUpon>frmCodeEquipmentTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeEquipmentTypeList.resx">
+      <DependentUpon>frmCodeEquipmentTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeEquipmentType.resx">
+      <DependentUpon>frmSelectCodeEquipmentType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectStandCodeEquipment.resx">
+      <DependentUpon>frmSelectStandCodeEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectUser.resx">
+      <DependentUpon>frmSelectUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemConfig\frmSystemConfig.resx">
+      <DependentUpon>frmSystemConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectStand.resx">
+      <DependentUpon>frmSelectStand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeUserType.resx">
+      <DependentUpon>frmSelectCodeUserType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectStander.resx">
+      <DependentUpon>frmSelectStander.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeEquipmentTypeItemEdit.resx">
+      <DependentUpon>frmCodeEquipmentTypeItemEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeEquipmentTypeSpecItemEdit.resx">
+      <DependentUpon>frmCodeEquipmentTypeSpecItemEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="套打\frmBillPrint.resx">
+      <DependentUpon>frmBillPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="套打\frmPrintList.resx">
+      <DependentUpon>frmPrintList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="套打\frmCoPrintList.resx">
+      <DependentUpon>frmCoPrintList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentStatusQueryList.resx">
+      <DependentUpon>frmEquipmentStatusQueryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandCheckRecordEdit.resx">
+      <DependentUpon>frmStandCheckRecordEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandCheckRecordList.resx">
+      <DependentUpon>frmStandCheckRecordList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandEquipmentCheckRecordEdit.resx">
+      <DependentUpon>frmStandEquipmentCheckRecordEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandEquipmentCheckRecordList.resx">
+      <DependentUpon>frmStandEquipmentCheckRecordList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandFilesCheckRecordEdit.resx">
+      <DependentUpon>frmStandFilesCheckRecordEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandFilesCheckRecordList.resx">
+      <DependentUpon>frmStandFilesCheckRecordList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="提醒管理\frmRemindConfigEdit.resx">
+      <DependentUpon>frmRemindConfigEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="提醒管理\frmRemindConfigList.resx">
+      <DependentUpon>frmRemindConfigList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="提醒管理\frmRemindList.resx">
+      <DependentUpon>frmRemindList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmPrintPreview.resx">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="任务管理\frmTaskFilesEdit.resx">
+      <DependentUpon>frmTaskFilesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="任务管理\frmTreeTaskFileList.resx">
+      <DependentUpon>frmTreeTaskFileList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeTaskTypeList.resx">
+      <DependentUpon>frmSelectCodeTaskTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="任务管理\frmTaskEdit.resx">
+      <DependentUpon>frmTaskEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="任务管理\frmTreeTaskList.resx">
+      <DependentUpon>frmTreeTaskList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeTaskTypeEdit.resx">
+      <DependentUpon>frmCodeTaskTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeTaskTypeList.resx">
+      <DependentUpon>frmCodeTaskTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCertPrintEdit.resx">
+      <DependentUpon>frmEquipmentCertPrintEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCertPrintList.resx">
+      <DependentUpon>frmEquipmentCertPrintList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentSignedEdit.resx">
+      <DependentUpon>frmEquipmentSignedEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentSignedList.resx">
+      <DependentUpon>frmEquipmentSignedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCheckedEdit.resx">
+      <DependentUpon>frmEquipmentCheckedEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCheckedList.resx">
+      <DependentUpon>frmEquipmentCheckedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentVerifyedEdit.resx">
+      <DependentUpon>frmEquipmentVerifyedEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentVerifyedList.resx">
+      <DependentUpon>frmEquipmentVerifyedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandEquipmentMemoryEdit.resx">
+      <DependentUpon>frmStandEquipmentMemoryEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandFilesMemoryEdit.resx">
+      <DependentUpon>frmStandFilesMemoryEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandEquipmentEdit.resx">
+      <DependentUpon>frmStandEquipmentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandEquipmentList.resx">
+      <DependentUpon>frmStandEquipmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandFilesEdit.resx">
+      <DependentUpon>frmStandFilesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandFilesList.resx">
+      <DependentUpon>frmStandFilesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandCodeEquipmentEdit.resx">
+      <DependentUpon>frmStandCodeEquipmentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandCodeEquipmentList.resx">
+      <DependentUpon>frmStandCodeEquipmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeStandStatus.resx">
+      <DependentUpon>frmSelectCodeStandStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeStandStatusEdit.resx">
+      <DependentUpon>frmCodeStandStatusEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeStandStatusList.resx">
+      <DependentUpon>frmCodeStandStatusList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeEquipmentStateEdit.resx">
+      <DependentUpon>frmCodeEquipmentStateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeEquipmentStateList.resx">
+      <DependentUpon>frmCodeEquipmentStateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandardEdit.resx">
+      <DependentUpon>frmStandardEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmStandardList.resx">
+      <DependentUpon>frmStandardList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmPassWord4FileList.resx">
+      <DependentUpon>frmPassWord4FileList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmFileDownloadEdit.resx">
+      <DependentUpon>frmFileDownloadEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmEditPassword.resx">
+      <DependentUpon>frmEditPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmResetPassword.resx">
+      <DependentUpon>frmResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmWebResetPassword.resx">
+      <DependentUpon>frmWebResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmFileDownloadList.resx">
+      <DependentUpon>frmFileDownloadList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCheckList.resx">
+      <DependentUpon>frmEquipmentCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentReceiveEdit.resx">
+      <DependentUpon>frmEquipmentReceiveEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentReceiveList.resx">
+      <DependentUpon>frmEquipmentReceiveList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectEquipmentCheck.resx">
+      <DependentUpon>frmSelectEquipmentCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCheckEdit.resx">
+      <DependentUpon>frmEquipmentCheckEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmPassWordTmpCheckList.resx">
+      <DependentUpon>frmPassWordTmpCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmPassWordTmpEdit.resx">
+      <DependentUpon>frmPassWordTmpEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmPassWordTmpList.resx">
+      <DependentUpon>frmPassWordTmpList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFolderTypeTree.resx">
+      <DependentUpon>frmCodeFolderTypeTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeFolderType.resx">
+      <DependentUpon>frmSelectCodeFolderType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmCodeFolderTypeEdit.resx">
+      <DependentUpon>frmCodeFolderTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmCodeFolderTypeTreeEdit.resx">
+      <DependentUpon>frmCodeFolderTypeTreeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmFileTreeListList.resx">
+      <DependentUpon>frmFileTreeListList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmFileListEdit.resx">
+      <DependentUpon>frmFileListEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电子文档\frmFileListList.resx">
+      <DependentUpon>frmFileListList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmCodeEquipmentCustTypeEdit.resx">
+      <DependentUpon>frmCodeEquipmentCustTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmCodeEquipmentCustTypeList.resx">
+      <DependentUpon>frmCodeEquipmentCustTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCustEdit.resx">
+      <DependentUpon>frmEquipmentCustEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="送检管理\frmEquipmentCustList.resx">
+      <DependentUpon>frmEquipmentCustList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectForm\frmSelectCodeProjectType.resx">
+      <DependentUpon>frmSelectCodeProjectType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeProjectTypeEdit.resx">
+      <DependentUpon>frmCodeProjectTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeProjectTypeList.resx">
+      <DependentUpon>frmCodeProjectTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmMeetingProjectEdit.resx">
+      <DependentUpon>frmMeetingProjectEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="标准管理\frmMeetingProjectList.resx">
+      <DependentUpon>frmMeetingProjectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="人事管理\frmStaffCertificateEdit.resx">
+      <DependentUpon>frmStaffCertificateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="人事管理\frmStaffCertificateList.resx">
+      <DependentUpon>frmStaffCertificateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="人事管理\frmStaffInfoEdit.resx">
+      <DependentUpon>frmStaffInfoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="人事管理\frmStaffInfoList.resx">
+      <DependentUpon>frmStaffInfoList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeCItemEdit.resx">
+      <DependentUpon>frmCodeCItemEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeCItemList.resx">
+      <DependentUpon>frmCodeCItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFileLevelEdit.resx">
+      <DependentUpon>frmCodeFileLevelEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFileLevelList.resx">
+      <DependentUpon>frmCodeFileLevelList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFileStateEdit.resx">
+      <DependentUpon>frmCodeFileStateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFileStateList.resx">
+      <DependentUpon>frmCodeFileStateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFileTypeEdit.resx">
+      <DependentUpon>frmCodeFileTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeFileTypeList.resx">
+      <DependentUpon>frmCodeFileTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeTempPssStateEdit.resx">
+      <DependentUpon>frmCodeTempPssStateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeTempPssStateList.resx">
+      <DependentUpon>frmCodeTempPssStateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeUserStateEdit.resx">
+      <DependentUpon>frmCodeUserStateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeUserStateList.resx">
+      <DependentUpon>frmCodeUserStateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeUserTypeEdit.resx">
+      <DependentUpon>frmCodeUserTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\代码管理\frmCodeUserTypeList.resx">
+      <DependentUpon>frmCodeUserTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\组织机构\frmUseDeptList.resx">
+      <DependentUpon>frmUseDeptList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmUsersDeptList.resx">
+      <DependentUpon>frmUsersDeptList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmRoleMenusList.resx">
+      <DependentUpon>frmRoleMenusList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\组织机构\frmUseDeptTreeList.resx">
+      <DependentUpon>frmUseDeptTreeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmUsersRoleList.resx">
+      <DependentUpon>frmUsersRoleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmRoleEdit.resx">
+      <DependentUpon>frmRoleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmRoleList.resx">
+      <DependentUpon>frmRoleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmUsersEdit.resx">
+      <DependentUpon>frmUsersEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本档案\系统管理\frmUsersList.resx">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SystemConfig\SystemConfig.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMIS.BLL\MMIS.BLL.csproj">
+      <Project>{10902868-54f9-4667-a451-3c74830e5a4b}</Project>
+      <Name>MMIS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Component\MMIS.Component.csproj">
+      <Project>{d6e17fe8-50b8-4e02-8df4-8d9db5f82514}</Project>
+      <Name>MMIS.Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.FolderModel\MMIS.FolderModel.csproj">
+      <Project>{e393ad93-7c3a-456a-8ad5-78cd6a3cef4b}</Project>
+      <Name>MMIS.FolderModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Helper\MMIS.Helper.csproj">
+      <Project>{8ab286b6-afe0-4afa-bdc5-26a15e52792a}</Project>
+      <Name>MMIS.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Model\MMIS.Model.csproj">
+      <Project>{fe215e2c-8e59-4695-921b-4eead027485b}</Project>
+      <Name>MMIS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.UI.Common\MMIS.UI.Common.csproj">
+      <Project>{e9934028-bc81-4370-bfeb-0e9eab60db45}</Project>
+      <Name>MMIS.UI.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DSOFramer">
+      <Guid>{00460180-9E5E-11D5-B7C8-B8269041DD57}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="System_48.ico" />
+    <Content Include="ui_48.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

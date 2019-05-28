@@ -1,0 +1,5 @@
+C:\Users\wss\Desktop\HRMS\HRMS.Common\bin\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Common\bin\Debug\Lizard.Common.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wss\Desktop\HRMS\HRMS.Common\obj\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.Common\obj\Debug\Lizard.Common.pdb

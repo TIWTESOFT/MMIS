@@ -1,0 +1,50 @@
+﻿*********************************************
+2015-10-15 11:07:13
+System.IO.IOException: 文件“D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI\bin\Release\WssTemp\76c732c3-36db-4539-ab22-69faef6f19d1.doc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName) 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\Custom\XFileAttachmentProvider.cs:行号 156
+*********************************************
+
+*********************************************
+2015-10-15 11:07:14
+System.IO.IOException: 文件“D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI\bin\Release\WssTemp\76c732c3-36db-4539-ab22-69faef6f19d1.doc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName) 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\Custom\XFileAttachmentProvider.cs:行号 156
+*********************************************
+
+*********************************************
+2015-10-15 11:07:14
+System.IO.IOException: 文件“D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI\bin\Release\WssTemp\76c732c3-36db-4539-ab22-69faef6f19d1.doc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName) 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\Custom\XFileAttachmentProvider.cs:行号 156
+*********************************************
+
+*********************************************
+2015-10-15 11:08:47
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 124
+*********************************************
+
+*********************************************
+2015-10-15 17:20:41
+System.IO.IOException: 文件“D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI\bin\Release\WssTemp\bfebbd43-d011-4c39-913e-e71b96a80ff4.doc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName) 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.DAL\Custom\XFileAttachmentProvider.cs:行号 156
+*********************************************
+
+*********************************************
+2015-10-15 17:20:49
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 D:\天科院\计量中心信息管理系统\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 124
+*********************************************
+

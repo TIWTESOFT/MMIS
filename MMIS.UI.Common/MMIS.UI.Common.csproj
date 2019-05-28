@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9934028-BC81-4370-BFEB-0E9EAB60DB45}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMIS.UI.Common</RootNamespace>
+    <AssemblyName>MMIS.UI.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.DSOFramer">
+      <HintPath>bin\Debug\AxInterop.DSOFramer.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>..\Refrences\Janus.Data.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3">
+      <HintPath>..\Refrences\Janus.Windows.ButtonBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3">
+      <HintPath>..\Refrences\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3">
+      <HintPath>..\Refrences\Janus.Windows.Common.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3">
+      <HintPath>..\Refrences\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3">
+      <HintPath>..\Refrences\Janus.Windows.FilterEditor.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3">
+      <HintPath>..\Refrences\Janus.Windows.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3">
+      <HintPath>..\Refrences\Janus.Windows.Ribbon.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3">
+      <HintPath>..\Refrences\Janus.Windows.Schedule.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v3">
+      <HintPath>..\Refrences\Janus.Windows.TimeLine.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3">
+      <HintPath>..\Refrences\Janus.Windows.UI.v3.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Refrences\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmBase.designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmDetailEditBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmDetailEditBase.Designer.cs">
+      <DependentUpon>frmDetailEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmDetailListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmDetailListBase.Designer.cs">
+      <DependentUpon>frmDetailListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmEditBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmEditBase.designer.cs">
+      <DependentUpon>frmEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmListBase.designer.cs">
+      <DependentUpon>frmListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmMainBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmMainBase.designer.cs">
+      <DependentUpon>frmMainBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmQueryBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmQueryBase.Designer.cs">
+      <DependentUpon>frmQueryBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enums\XEditStatus.cs" />
+    <Compile Include="frmFileInfoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileInfoList.Designer.cs">
+      <DependentUpon>frmFileInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmImportListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmImportListBase.Designer.cs">
+      <DependentUpon>frmImportListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImagePreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImagePreview.Designer.cs">
+      <DependentUpon>frmImagePreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOfficeFilePreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOfficeFilePreview.Designer.cs">
+      <DependentUpon>frmOfficeFilePreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperateResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperateResult.Designer.cs">
+      <DependentUpon>frmOperateResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmTreeListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmTreeListBase.Designer.cs">
+      <DependentUpon>frmTreeListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmTreeListEditBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmTreeListEditBase.Designer.cs">
+      <DependentUpon>frmTreeListEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmTreeEditBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmTreeEditBase.Designer.cs">
+      <DependentUpon>frmTreeEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmReadOnlyListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmReadOnlyListBase.Designer.cs">
+      <DependentUpon>frmReadOnlyListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmSingleDetailEditBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmSingleDetailEditBase.Designer.cs">
+      <DependentUpon>frmSingleDetailEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmStaticListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmStaticListBase.Designer.cs">
+      <DependentUpon>frmStaticListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmTreeBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmTreeBase.Designer.cs">
+      <DependentUpon>frmTreeBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmTabEditBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmTabEditBase.Designer.cs">
+      <DependentUpon>frmTabEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmTabListBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmTabListBase.Designer.cs">
+      <DependentUpon>frmTabListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWorkFlowView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkFlowView.Designer.cs">
+      <DependentUpon>frmWorkFlowView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MenuFolder\XMenuFolderInfoTool.cs" />
+    <Compile Include="MenuFolder\XMenuFolderLoadEventArgs.cs" />
+    <Compile Include="Query\XCheckBoxConditionTool.cs" />
+    <Compile Include="Query\XEditBoxConditionTool.cs" />
+    <Compile Include="Query\XNumberEditBoxConditionTool.cs" />
+    <Compile Include="Query\XQueryControlConditionContext.cs" />
+    <Compile Include="Query\XQueryControlConditionTool.cs" />
+    <Compile Include="Query\XQueryTool.cs" />
+    <Compile Include="Query\XDateTimePickerConditionTool.cs" />
+    <Compile Include="TaskbarNotifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\XComboboxConditionTool.cs" />
+    <Compile Include="XCommon.cs" />
+    <Compile Include="Query\XDatePickerConditionTool.cs" />
+    <Compile Include="Base\XControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\XControlBase.Designer.cs">
+      <DependentUpon>XControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XFilePreviewTool.cs" />
+    <Compile Include="XFormValidateTool.cs" />
+    <Compile Include="Base\XListControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\XListControlBase.Designer.cs">
+      <DependentUpon>XListControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XTemplatePrintTool.cs" />
+    <EmbeddedResource Include="Base\frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmDetailEditBase.resx">
+      <DependentUpon>frmDetailEditBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmDetailListBase.resx">
+      <DependentUpon>frmDetailListBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmEditBase.resx">
+      <DependentUpon>frmEditBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmListBase.resx">
+      <DependentUpon>frmListBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmMainBase.resx">
+      <DependentUpon>frmMainBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmQueryBase.resx">
+      <DependentUpon>frmQueryBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmTreeEditBase.resx">
+      <DependentUpon>frmTreeEditBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\XListControlBase.resx">
+      <DependentUpon>XListControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileInfoList.resx">
+      <DependentUpon>frmFileInfoList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmImportListBase.resx">
+      <DependentUpon>frmImportListBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImagePreview.resx">
+      <DependentUpon>frmImagePreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOfficeFilePreview.resx">
+      <DependentUpon>frmOfficeFilePreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperateResult.resx">
+      <DependentUpon>frmOperateResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmTreeListBase.resx">
+      <DependentUpon>frmTreeListBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmTreeListEditBase.resx">
+      <DependentUpon>frmTreeListEditBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmStaticListBase.resx">
+      <DependentUpon>frmStaticListBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmTreeBase.resx">
+      <DependentUpon>frmTreeBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmTabEditBase.resx">
+      <DependentUpon>frmTabEditBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmTabListBase.resx">
+      <DependentUpon>frmTabListBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWorkFlowView.resx">
+      <DependentUpon>frmWorkFlowView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Base\XControlBase.resx">
+      <DependentUpon>XControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMIS.BLL\MMIS.BLL.csproj">
+      <Project>{10902868-54F9-4667-A451-3C74830E5A4B}</Project>
+      <Name>MMIS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Component\MMIS.Component.csproj">
+      <Project>{D6E17FE8-50B8-4E02-8DF4-8D9DB5F82514}</Project>
+      <Name>MMIS.Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.FolderModel\MMIS.FolderModel.csproj">
+      <Project>{E393AD93-7C3A-456A-8AD5-78CD6A3CEF4B}</Project>
+      <Name>MMIS.FolderModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Helper\MMIS.Helper.csproj">
+      <Project>{8AB286B6-AFE0-4AFA-BDC5-26A15E52792A}</Project>
+      <Name>MMIS.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Folder\MMIS.Folder.csproj">
+      <Project>{1D74524F-2E98-4F66-849E-985A40BED2A6}</Project>
+      <Name>MMIS.Folder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Model\MMIS.Model.csproj">
+      <Project>{FE215E2C-8E59-4695-921B-4EEAD027485B}</Project>
+      <Name>MMIS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LizardLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hr_96.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DSOFramer">
+      <Guid>{00460180-9E5E-11D5-B7C8-B8269041DD57}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

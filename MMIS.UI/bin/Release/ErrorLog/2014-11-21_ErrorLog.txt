@@ -1,0 +1,72 @@
+﻿*********************************************
+2014-11-21 11:57:20
+System.IO.DirectoryNotFoundException: 未能找到路径“F:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\bin\Debug\WssTemp\7c0cab2f-70a4-4b4f-b1bd-317719704545.doc”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.IO.FileInfo.Create()
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.DAL\Custom\XFileAttachmentProvider.cs:行号 152
+   在 MMIS.BLL.XFileAttachmentBusiness.DownLoadFile(String fileId, String filePath, String fileName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.BLL\Custom\XFileAttachmentBusiness.cs:行号 37
+   在 MMIS.UI.frmPrintPreview.Init()
+*********************************************
+
+*********************************************
+2014-11-21 11:57:23
+System.Runtime.InteropServices.COMException (0x80041107): No document is open to perform the operation requested.
+   在 DSOFramer._FramerControl.get_ActiveDocument()
+   在 AxDSOFramer.AxFramerControl.get_ActiveDocument()
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e)
+*********************************************
+
+*********************************************
+2014-11-21 12:23:36
+System.IO.DirectoryNotFoundException: 未能找到路径“F:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\bin\Debug\WssTemp\01c34b37-4744-4589-9ee0-4595e8ee6061.doc”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.IO.FileInfo.Create()
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.DAL\Custom\XFileAttachmentProvider.cs:行号 152
+   在 MMIS.BLL.XFileAttachmentBusiness.DownLoadFile(String fileId, String filePath, String fileName) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.BLL\Custom\XFileAttachmentBusiness.cs:行号 37
+   在 MMIS.UI.frmPrintPreview.Init() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 68
+*********************************************
+
+*********************************************
+2014-11-21 12:23:38
+System.Runtime.InteropServices.COMException (0x80041107): No document is open to perform the operation requested.
+   在 DSOFramer._FramerControl.get_ActiveDocument()
+   在 AxDSOFramer.AxFramerControl.get_ActiveDocument()
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 119
+*********************************************
+
+*********************************************
+2014-11-21 12:26:57
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 122
+*********************************************
+
+*********************************************
+2014-11-21 12:38:55
+System.IO.IOException: 文件“F:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\bin\Debug\WssTemp\9e667d6a-e270-4dcb-b196-7b46fa678ca5.doc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName)
+*********************************************
+
+*********************************************
+2014-11-21 12:39:01
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 122
+*********************************************
+
+*********************************************
+2014-11-21 12:39:23
+System.IO.IOException: 文件“F:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\bin\Debug\WssTemp\65295f8c-ec07-44b5-a683-91c758981f0b.doc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 MMIS.DAL.XFileAttachmentProvider.DownLoadFile(String fileId, String filePath, String fileName)
+*********************************************
+

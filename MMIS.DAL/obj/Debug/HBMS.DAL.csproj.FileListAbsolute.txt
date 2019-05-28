@@ -1,0 +1,11 @@
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.DAL.dll
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.DAL.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\obj\Debug\Lizard.DAL.dll
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\obj\Debug\Lizard.DAL.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.Common.dll
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.FolderModel.dll
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.Model.dll
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.Common.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.FolderModel.pdb
+C:\Users\wss\Desktop\HRMS\HRMS.DAL\bin\Debug\Lizard.Model.pdb

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE215E2C-8E59-4695-921B-4EEAD027485B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMIS.Model</RootNamespace>
+    <AssemblyName>MMIS.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Other\XImportSingleResultInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Base\XModelBase.cs" />
+    <Compile Include="Enum\XModelStatusEnum.cs" />
+    <Compile Include="Other\XFileInfo.cs" />
+    <Compile Include="Other\XImportResultInfo.cs" />
+    <Compile Include="Other\XCheckLevelInfo.cs" />
+    <Compile Include="Other\XSendMessageInfo.cs" />
+    <Compile Include="Table\XCodeCItemInfo.cs" />
+    <Compile Include="Table\XCodeDefInfo.cs" />
+    <Compile Include="Table\XCodeEquipmentCustTypeInfo.cs" />
+    <Compile Include="Table\XCodeEquipmentStateInfo.cs" />
+    <Compile Include="Table\XCodeEquipmentTypeInfo.cs" />
+    <Compile Include="Table\XCodeFileLevelInfo.cs" />
+    <Compile Include="Table\XCodeFileStateInfo.cs" />
+    <Compile Include="Table\XCodeFileTypeInfo.cs" />
+    <Compile Include="Table\XCodeFolderTypeInfo.cs" />
+    <Compile Include="Table\XCodeProjectTypeInfo.cs" />
+    <Compile Include="Table\XCodeStandStatusInfo.cs" />
+    <Compile Include="Table\XCodeTaskTypeInfo.cs" />
+    <Compile Include="Table\XCodeTempPssStateInfo.cs" />
+    <Compile Include="Table\XCodeUserStateInfo.cs" />
+    <Compile Include="Table\XCodeUserTypeInfo.cs" />
+    <Compile Include="Table\XDeleteValidateRuleInfo.cs" />
+    <Compile Include="Table\XEquipmentCheckInfo.cs" />
+    <Compile Include="Table\XEquipmentCustInfo.cs" />
+    <Compile Include="Table\XEquipmentDetectInfo.cs" />
+    <Compile Include="Table\XEquipmentPDFReportInfo.cs" />
+    <Compile Include="Table\XEquipmentReceiveInfo.cs" />
+    <Compile Include="Table\XFileAttachmentInfo.cs" />
+    <Compile Include="Table\XFileListInfo.cs" />
+    <Compile Include="Table\XLoginLogInfo.cs" />
+    <Compile Include="Table\XMeetingProjectInfo.cs" />
+    <Compile Include="Table\XPassWord4FileInfo.cs" />
+    <Compile Include="Table\XPassWordTmpInfo.cs" />
+    <Compile Include="Table\XRemindConfigInfo.cs" />
+    <Compile Include="Table\XRemindRolesInfo.cs" />
+    <Compile Include="Table\XRemindUsersInfo.cs" />
+    <Compile Include="Table\XRoleInfo.cs" />
+    <Compile Include="Table\XRoleMenusInfo.cs" />
+    <Compile Include="Table\XStaffCertificateInfo.cs" />
+    <Compile Include="Table\XStaffCItemInfo.cs" />
+    <Compile Include="Table\XStaffInfoInfo.cs" />
+    <Compile Include="Table\XStandardInfo.cs" />
+    <Compile Include="Table\XStandCheckRecordInfo.cs" />
+    <Compile Include="Table\XStandCodeEquipmentInfo.cs" />
+    <Compile Include="Table\XStandEquipmentCheckRecordInfo.cs" />
+    <Compile Include="Table\XStandEquipmentInfo.cs" />
+    <Compile Include="Table\XStandFilesCheckRecordInfo.cs" />
+    <Compile Include="Table\XStandFilesInfo.cs" />
+    <Compile Include="Table\XTableDictInfo.cs" />
+    <Compile Include="Table\XTaskAttachmentInfo.cs" />
+    <Compile Include="Table\XTaskFilesInfo.cs" />
+    <Compile Include="Table\XTaskInfo.cs" />
+    <Compile Include="Table\XTemplateBillInfo.cs" />
+    <Compile Include="Table\XTemplateCatalogInfo.cs" />
+    <Compile Include="Table\XTemplateCatalogItemInfo.cs" />
+    <Compile Include="Table\XTemplateInfo.cs" />
+    <Compile Include="Table\XTemplateItemInfo.cs" />
+    <Compile Include="Table\XUseDeptFolderInfo.cs" />
+    <Compile Include="Table\XUseDeptInfo.cs" />
+    <Compile Include="Table\XUseErroLogInfo.cs" />
+    <Compile Include="Table\XUseFileLogInfo.cs" />
+    <Compile Include="Table\XUseOperateLogInfo.cs" />
+    <Compile Include="Table\XUsersInfo.cs" />
+    <Compile Include="Table\XUsersRoleInfo.cs" />
+    <Compile Include="Table\XUseUserDeptInfo.cs" />
+    <Compile Include="Table\XWorkJobInfo.cs" />
+    <Compile Include="View\XVUserInfo.cs" />
+    <Compile Include="View\XVUseDeptInfo.cs" />
+    <Compile Include="View\XVStaffInfo.cs" />
+    <Compile Include="View\XVStaffCertificateInfo.cs" />
+    <Compile Include="View\XVStaffCItemInfo.cs" />
+    <Compile Include="View\XVMeetingProjectInfo.cs" />
+    <Compile Include="View\XVEquipmentCustInfo.cs" />
+    <Compile Include="View\XVFileListInfo.cs" />
+    <Compile Include="View\XVEquipmentCheckInfo.cs" />
+    <Compile Include="View\XVEquipmentReceiveInfo.cs" />
+    <Compile Include="View\XVEquipmentDetectInfo.cs" />
+    <Compile Include="View\XVPassWord4FileInfo.cs" />
+    <Compile Include="View\XVStandardInfo.cs" />
+    <Compile Include="View\XVStandCodeEquipmentInfo.cs" />
+    <Compile Include="View\XVStandFilesInfo.cs" />
+    <Compile Include="View\XVStandEquipmentInfo.cs" />
+    <Compile Include="View\XVTaskInfo.cs" />
+    <Compile Include="View\XVTaskFilesInfo.cs" />
+    <Compile Include="View\XVStandCheckRecordInfo.cs" />
+    <Compile Include="View\XVStandFilesCheckRecordInfo.cs" />
+    <Compile Include="View\XVStandEquipmentCheckRecordInfo.cs" />
+    <Compile Include="View\XVTaskAttachmentInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

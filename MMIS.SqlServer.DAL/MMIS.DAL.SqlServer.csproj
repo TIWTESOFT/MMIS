@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1457289-FA9A-4AF4-934B-0A9D86387505}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMIS.DAL.SqlServer</RootNamespace>
+    <AssemblyName>MMIS.DAL.SqlServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Generate\XCodeCItemProvider.g.cs" />
+    <Compile Include="Generate\XCodeDefProvider.g.cs" />
+    <Compile Include="Generate\XCodeEquipmentCustTypeProvider.g.cs" />
+    <Compile Include="Generate\XCodeEquipmentStateProvider.g.cs" />
+    <Compile Include="Generate\XCodeEquipmentTypeProvider.g.cs" />
+    <Compile Include="Generate\XCodeFileLevelProvider.g.cs" />
+    <Compile Include="Generate\XCodeFileStateProvider.g.cs" />
+    <Compile Include="Generate\XCodeFileTypeProvider.g.cs" />
+    <Compile Include="Generate\XCodeFolderTypeProvider.g.cs" />
+    <Compile Include="Generate\XCodeProjectTypeProvider.g.cs" />
+    <Compile Include="Generate\XCodeStandStatusProvider.g.cs" />
+    <Compile Include="Generate\XCodeTaskTypeProvider.g.cs" />
+    <Compile Include="Generate\XCodeTempPssStateProvider.g.cs" />
+    <Compile Include="Generate\XCodeUserStateProvider.g.cs" />
+    <Compile Include="Generate\XCodeUserTypeProvider.g.cs" />
+    <Compile Include="Generate\XDeleteValidateRuleProvider.g.cs" />
+    <Compile Include="Generate\XEquipmentCheckProvider.g.cs" />
+    <Compile Include="Generate\XEquipmentCustProvider.g.cs" />
+    <Compile Include="Generate\XEquipmentDetectProvider.g.cs" />
+    <Compile Include="Generate\XEquipmentPDFReportProvider.g.cs" />
+    <Compile Include="Generate\XEquipmentReceiveProvider.g.cs" />
+    <Compile Include="Generate\XFileAttachmentProvider.g.cs" />
+    <Compile Include="Generate\XFileListProvider.g.cs" />
+    <Compile Include="Generate\XLoginLogProvider.g.cs" />
+    <Compile Include="Generate\XMeetingProjectProvider.g.cs" />
+    <Compile Include="Generate\XPassWord4FileProvider.g.cs" />
+    <Compile Include="Generate\XPassWordTmpProvider.g.cs" />
+    <Compile Include="Generate\XRemindConfigProvider.g.cs" />
+    <Compile Include="Generate\XRemindRolesProvider.g.cs" />
+    <Compile Include="Generate\XRemindUsersProvider.g.cs" />
+    <Compile Include="Generate\XRoleMenusProvider.g.cs" />
+    <Compile Include="Generate\XRoleProvider.g.cs" />
+    <Compile Include="Generate\XSqlServerFactory.g.cs" />
+    <Compile Include="Generate\XStaffCertificateProvider.g.cs" />
+    <Compile Include="Generate\XStaffCItemProvider.g.cs" />
+    <Compile Include="Generate\XStaffInfoProvider.g.cs" />
+    <Compile Include="Generate\XStandardProvider.g.cs" />
+    <Compile Include="Generate\XStandCheckRecordProvider.g.cs" />
+    <Compile Include="Generate\XStandCodeEquipmentProvider.g.cs" />
+    <Compile Include="Generate\XStandEquipmentCheckRecordProvider.g.cs" />
+    <Compile Include="Generate\XStandEquipmentProvider.g.cs" />
+    <Compile Include="Generate\XStandFilesCheckRecordProvider.g.cs" />
+    <Compile Include="Generate\XStandFilesProvider.g.cs" />
+    <Compile Include="Generate\XTableDictProvider.g.cs" />
+    <Compile Include="Generate\XTaskAttachmentProvider.g.cs" />
+    <Compile Include="Generate\XTaskFilesProvider.g.cs" />
+    <Compile Include="Generate\XTaskProvider.g.cs" />
+    <Compile Include="Generate\XTemplateBillProvider.g.cs" />
+    <Compile Include="Generate\XTemplateCatalogItemProvider.g.cs" />
+    <Compile Include="Generate\XTemplateCatalogProvider.g.cs" />
+    <Compile Include="Generate\XTemplateItemProvider.g.cs" />
+    <Compile Include="Generate\XTemplateProvider.g.cs" />
+    <Compile Include="Generate\XUseDeptFolderProvider.g.cs" />
+    <Compile Include="Generate\XUseDeptProvider.g.cs" />
+    <Compile Include="Generate\XUseErroLogProvider.g.cs" />
+    <Compile Include="Generate\XUseFileLogProvider.g.cs" />
+    <Compile Include="Generate\XUseOperateLogProvider.g.cs" />
+    <Compile Include="Generate\XUsersProvider.g.cs" />
+    <Compile Include="Generate\XUsersRoleProvider.g.cs" />
+    <Compile Include="Generate\XUseUserDeptProvider.g.cs" />
+    <Compile Include="MenuFolder\Generate\XSqlServerMenuFolderProvider.cs" />
+    <Compile Include="MenuFolder\Generate\XSqlServerMenuProvider.cs" />
+    <Compile Include="MenuFolder\XFolderSqlServerFactory.g.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataAccess\XSqlServerDataAccess.cs" />
+    <Compile Include="Factory\XSqlServerFactory.cs" />
+    <Compile Include="MenuFolder\Generate\XSqlServerMenuGroupProvider.cs" />
+    <Compile Include="Custom\XSqlServerVoucherRemindProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MenuFolder\Custom\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMIS.DAL\MMIS.DAL.csproj">
+      <Project>{ef2196a7-9b8d-45e8-9b56-46cc5baf2cdc}</Project>
+      <Name>MMIS.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMIS.Helper\MMIS.Helper.csproj">
+      <Project>{8ab286b6-afe0-4afa-bdc5-26a15e52792a}</Project>
+      <Name>MMIS.Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.Common\bin\Release\Lizard.Common.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.Common\bin\Release\Lizard.Common.pdb
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.Common\obj\Release\ResolveAssemblyReference.cache
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.Common\obj\Release\Lizard.Common.dll
+F:\快盘\我的项目\ShopCash\ShopCash\Lizard.Common\obj\Release\Lizard.Common.pdb

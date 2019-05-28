@@ -1,0 +1,130 @@
+﻿*********************************************
+2014-11-19 19:58:07
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 19:58:07
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 21:08:28
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 21:08:28
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 21:26:05
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore()
+*********************************************
+
+*********************************************
+2014-11-19 21:26:05
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore()
+*********************************************
+
+*********************************************
+2014-11-19 21:36:52
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 21:36:52
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 21:36:59
+System.Data.SqlClient.SqlException (0x80131904): “=”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 MMIS.DAL.XDataAccessBase.ExecuteScalar(String sql) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.DAL\Base\XDataAccessBase.cs:行号 256
+ClientConnectionId:664bb816-74ed-485b-bb04-bb3d395fd69b
+*********************************************
+
+*********************************************
+2014-11-19 21:37:35
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore()
+*********************************************
+
+*********************************************
+2014-11-19 21:37:35
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore()
+*********************************************
+
+*********************************************
+2014-11-19 21:37:47
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore()
+*********************************************
+
+*********************************************
+2014-11-19 21:37:47
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore()
+*********************************************
+
+*********************************************
+2014-11-19 22:14:50
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-19 22:19:11
+System.Runtime.InteropServices.COMException (0x800A11FD): 此方法或属性无效，因为 此文档在另一应用程序中。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Close(Object& SaveChanges, Object& OriginalFormat, Object& RouteDocument)
+   在 MMIS.UI.frmPrintPreview.frmPrintPreview_FormClosing(Object sender, FormClosingEventArgs e) 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\送检管理\frmPrintPreview.cs:行号 88
+*********************************************
+
+*********************************************
+2014-11-19 22:39:48
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+
+*********************************************
+2014-11-19 22:39:48
+System.ArgumentException: 值不在预期的范围内。
+   在 Janus.Windows.GridEX.GridEXFormatConditionCollection.Add(GridEXFormatCondition condition)
+   在 MMIS.UI.frmCodeEquipmentStateList.FillGridBefore() 位置 f:\快盘\我的项目\计量中心信息管理系统\源代码\MMIS\MMIS.UI\基本档案\代码管理\frmCodeEquipmentStateList.cs:行号 55
+*********************************************
+

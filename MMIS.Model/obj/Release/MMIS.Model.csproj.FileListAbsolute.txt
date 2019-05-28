@@ -1,0 +1,5 @@
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Model\bin\Release\MMIS.Model.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Model\bin\Release\MMIS.Model.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Model\obj\Release\MMIS.Model.dll
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Model\obj\Release\MMIS.Model.pdb
+D:\天科院\计量中心信息管理系统\MMIS\MMIS.Model\obj\Release\ResolveAssemblyReference.cache
